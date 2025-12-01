@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d84434fd1d438b45bd8a64f523e2479, type: 3}
+  m_Name: SelfDestruct
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -5361635123427353482, guid: 1dc1d3f18a851c0488d798ab9c523d37, type: 3}
+  Health: 0
+  power: 1
