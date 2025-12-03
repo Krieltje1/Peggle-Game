@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3897428527626824830}
   - component: {fileID: 3690662869489987317}
   m_Layer: 0
-  m_Name: Ball
+  m_Name: LightOrb
   m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

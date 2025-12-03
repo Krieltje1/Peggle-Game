@@ -7,4 +7,6 @@ public class ChaosOrbScriptableObject : ScriptableObject
     public Sprite sprite;
     public int Health;
     public bool power;
+    public float spawnChance;
+    public string Name;
 }

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: SelfDestruct
   m_EditorClassIdentifier: 
   sprite: {fileID: -5361635123427353482, guid: 1dc1d3f18a851c0488d798ab9c523d37, type: 3}
-  Health: 0
+  Health: 1
   power: 1
+  spawnChance: 10

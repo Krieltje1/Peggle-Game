@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Tank
   m_EditorClassIdentifier: 
   sprite: {fileID: -4714668374547207282, guid: 8c4bac379dc34234ea5a4c67f8183e5a, type: 3}
-  Health: 0
-  power: 1
+  Health: 30
+  power: 0
+  spawnChance: 25

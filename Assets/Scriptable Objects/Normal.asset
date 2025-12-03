@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Normal
   m_EditorClassIdentifier: 
   sprite: {fileID: 6540078649836954114, guid: 3c52be843ee957542a10f0cd9b8331a9, type: 3}
-  Health: 0
+  Health: 10
   power: 0
+  spawnChance: 50
