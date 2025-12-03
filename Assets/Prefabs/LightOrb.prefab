@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1527026067477241831}
   - component: {fileID: 3897428527626824830}
   - component: {fileID: 3690662869489987317}
+  - component: {fileID: 3355486582114005461}
   m_Layer: 0
   m_Name: LightOrb
   m_TagString: Ball
@@ -151,4 +152,23 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
+--- !u!114 &3355486582114005461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7676329643899325300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e092a5a1260c44c469f9d868976883ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 2
+  maxBalls: 10
+  ballsUsed: 0
+  chaosOrb:
+  - {fileID: 11400000, guid: c409cca65344a684ea3341d189f0d685, type: 2}
+  - {fileID: 11400000, guid: 0306089716a1d5a4db616ac1c5cf5384, type: 2}
+  - {fileID: 11400000, guid: 7f2c85535923a4849a61ec36d613e6dd, type: 2}

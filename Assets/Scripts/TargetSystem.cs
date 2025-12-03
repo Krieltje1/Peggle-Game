@@ -6,28 +6,32 @@ public class TargetSystem : MonoBehaviour
 {
 
     public ChaosOrbScriptableObject chaosOrb;
-    public GameObject prefab;
+    public PlayerStats playerStats;
+    public int currentHealth;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Vector3 spawnPos = new Vector3(Random.Range(-10, 10), Random.Range(-5, -10), 0);
-        GameObject randomOrb = Instantiate(prefab, spawnPos, Quaternion.identity);
-        randomOrb.GetComponent<TargetSystem>();
-        
+        currentHealth = chaosOrb.Health;
     }
 
     // Update is called once per frame
     void Update()
     {
+        
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Hit, " + chaosOrb.sprite);
-        Destroy(gameObject);
-
-        Debug.Log(chaosOrb.Name + "Has " + chaosOrb.Health + "Remaining");
+        TakeDamage(playerStats.Damage);
+        Debug.Log("Dealt " + playerStats.Damage + " damage " + chaosOrb.Name + " has " + currentHealth + " health remaining");
         
+        
+    }
+
+    void TakeDamage(int dmg)
+    {
+        currentHealth -= dmg;
+        if(currentHealth <= 0) Destroy(gameObject);
     }
 
     

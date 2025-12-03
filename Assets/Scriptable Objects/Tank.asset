@@ -16,3 +16,4 @@ MonoBehaviour:
   Health: 30
   power: 0
   spawnChance: 25
+  Name: Tank

@@ -16,3 +16,4 @@ MonoBehaviour:
   Health: 1
   power: 1
   spawnChance: 10
+  Name: Bomb

@@ -16,3 +16,4 @@ MonoBehaviour:
   Health: 10
   power: 0
   spawnChance: 50
+  Name: Normal
